@@ -19,7 +19,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="projects grid w-full h-auto p-3 lg:mt-8">
-          <div className="project4 project grid mt-4 lg:mt-0 h-auto lg:h-80 rounded-lg p-2 lg:px-52 hover:bg-tahiti-150">
+          <div className="project4 project grid mt-4 lg:mt-0 h-auto lg:h-80 rounded-lg p-2 lg:px-52 lg:mb-4 hover:bg-tahiti-150">
             <div className="pic lg:w-64 w-1/2  h-auto mt-2">
               <img src={project5} alt="Inventory Management" />
             </div>
@@ -64,9 +64,8 @@ const Projects = () => {
               </p>
             </div>
           </div>
-
-          <div className="project3 projects grid mt-4 lg:mt-6 h-auto lg:h-60 rounded-lg p-2 lg:px-52 lg:mb-4 hover:bg-tahiti-150">
-            <div className="pic lg:w-64 w-full  h-auto mt-2">
+          <div className="project3 projects grid mt-4 lg:mt-0 h-auto lg:h-60 rounded-lg p-2 lg:px-52 lg:mb-4 hover:bg-tahiti-150">
+            <div className="pic lg:w-64 w-full  h-auto mt-2 lgLmt-0">
               <img src={project3} alt="Tax Calculator" />
             </div>
             <div className="details text-start mt-2 lg:mt-0">
